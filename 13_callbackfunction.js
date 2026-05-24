@@ -11,11 +11,12 @@ function sayHi() {
 let sayHello = function (callback) {
     callback();
 };
-
+sayHello(() => console.log('bye'));
 sayHello(sayHi);
 sayHello(function sayHi() {
     console.log('hiii');
 });
+
 //calling a function by passing a function name
 
 console.log('=============');
