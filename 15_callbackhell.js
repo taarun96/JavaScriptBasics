@@ -100,3 +100,12 @@ startMachine(() => {
 // }
 //promises
 //async await
+
+
+function practice(){
+    setTimeout(()=>{
+        console.log("practice makes a man perfect");
+    },4000)
+}
+
+practice();
